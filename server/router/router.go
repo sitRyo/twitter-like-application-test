@@ -5,11 +5,16 @@ import (
 )
 
 func router(e *gin.Engine) {
-	// api := e.Group("/api")
+	api := e.Group("/api")
 
 	// block
 	{
-		// /api/upload/
-		// e.POST("/upload", api.StoreTweet)
+		// /api/upload
+		// second param: function
+		api.POST("/upload", storeTweet)
 	}
+}
+
+func storeTweet(e *gin.Context) {
+
 }
