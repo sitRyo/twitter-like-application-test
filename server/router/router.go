@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func router(e *gin.Engine) {
+func Register(e *gin.Engine) {
 	api := e.Group("/api")
 
 	// block
