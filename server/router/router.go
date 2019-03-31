@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// Register function
+// Register routing table
 func Register(e *gin.Engine) {
 	api := e.Group("/api")
 
