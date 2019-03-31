@@ -1,0 +1,22 @@
+{
+  "name": "twitter-like-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitRyo/twitter-like-application-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sitRyo/twitter-like-application-test/issues"
+  },
+  "homepage": "https://github.com/sitRyo/twitter-like-application-test#readme",
+  "dependencies": {
+    "@vue/cli": "^3.5.2"
+  }
+}
